@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://blog-busters-backend.onrender.com";
+const URL = "https://blog-buster-backend.onrender.com";
 
 export async function createPost(post) {
 	return axios.post(`${URL}/posts`, post)
